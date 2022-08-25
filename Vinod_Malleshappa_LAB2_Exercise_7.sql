@@ -1,5 +1,3 @@
-# Simple Method used to find the Find the most popular programming language
-
 SELECT
   LANGUAGE.name AS language_name,
   COUNT(LANGUAGE.name) AS count
